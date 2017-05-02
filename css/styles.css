@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
+/* apply font to all text */
 * {
 	font-family: Helvetica, Arial, "sans-serif"
 }
@@ -17,7 +17,7 @@ ul {
 li{
 	float:left;
 	display:block;
-	width: 100px;
+	width: 150px;
 	background-color: skyblue;
 	line-height: 50px;
 }
@@ -44,7 +44,7 @@ h2{
 	font-weight: 200;
 	margin-top: -20px;
 }
-
+/* apply color to every other row in table */
 tr:nth-child(even) {
 	background-color: #EBEBD0;
 }
@@ -52,7 +52,7 @@ tr:nth-child(even) {
 th{
 	text-align:left;
 	border-left: 1px solid #ACA9A9;
-	padding: 1px;
+	padding: 0px 20px;
 }
 
 td{
@@ -65,16 +65,16 @@ table{
 	border-collapse:collapse;
 	border-bottom: 1px solid #ACA9A9;
 }
-
+/* apply border to top of table */
 tr:nth-child(2){
 	border-top: 1px solid #ACA9A9;
 }
-
+/* remove border from images */
 .image {
 	border: 0px solid #ACA9A9;
 	vertical-align: bottom;
 }
-
+/* make part of the th not bold */
 span{
 	font-weight: 200;
 	font-style: italic;
