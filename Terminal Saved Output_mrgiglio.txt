@@ -1,0 +1,115 @@
+Last login: Tue May  2 12:00:48 on console
+grc-denmark:~ mrgiglio$ cd Desktop/338_03_L5_mrgiglio
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git init
+Initialized empty Git repository in /Users/mrgiglio/Desktop/338_03_L5_mrgiglio/.git/
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git add -A
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git commit -m "add files"
+[master (root-commit) a7e790b] add files
+ 8 files changed, 14 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/styles.css
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100644 images/Logo.gif
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git remote add origin https://github.com/gigliom/Lab5.git
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git push -u origin master
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 1.17 MiB | 1.78 MiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/gigliom/Lab5.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git add -A
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git commit -m "finished html table"
+[master 02b0662] finished html table
+ 1 file changed, 60 insertions(+)
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 721 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gigliom/Lab5.git
+   a7e790b..02b0662  master -> master
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git commit -am "nav bar included"
+[master f86517f] nav bar included
+ 2 files changed, 99 insertions(+), 2 deletions(-)
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.20 KiB | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gigliom/Lab5.git
+   02b0662..f86517f  master -> master
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git commit -am "comments"
+[master f2f12df] comments
+ 2 files changed, 11 insertions(+), 8 deletions(-)
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 715 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/gigliom/Lab5.git
+   f86517f..f2f12df  master -> master
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ git log
+commit f2f12df46bd7e2addbde8844e6dd9de1af40289e
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 14:34:21 2017 -0700
+
+    comments
+
+commit f86517f32a03dfca2c4ea127a5efd00bc7627340
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 14:08:31 2017 -0700
+
+    nav bar included
+
+commit 02b0662776122c45031d4eb7931e33ca77507d0b
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 13:11:13 2017 -0700
+
+    finished html table
+
+commit a7e790b5f39bb9e09c1be0656bce6ee7810cad4c
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 12:53:24 2017 -0700
+
+    add files
+:...skipping...
+commit f2f12df46bd7e2addbde8844e6dd9de1af40289e
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 14:34:21 2017 -0700
+
+    comments
+
+commit f86517f32a03dfca2c4ea127a5efd00bc7627340
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 14:08:31 2017 -0700
+
+    nav bar included
+
+commit 02b0662776122c45031d4eb7931e33ca77507d0b
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 13:11:13 2017 -0700
+
+    finished html table
+
+commit a7e790b5f39bb9e09c1be0656bce6ee7810cad4c
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 2 12:53:24 2017 -0700
+
+    add files
+~
+~
+grc-denmark:338_03_L5_mrgiglio mrgiglio$ 
