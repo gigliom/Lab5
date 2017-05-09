@@ -2,10 +2,166 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>Contact Hydro Flask</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
+<!--begin navigation bar-->
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#shop.html">Shop</a></li>
+		<li><a href="#customize.html">Customize</a></li>
+		<li><a href="#innovation.html">Innovation</a></li>
+		<li><a href="#story.html">Our Story</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+<!--end nav bar-->
+
+<!--Begin form-->
+<div>
+	<form>
+	<fieldset>
+	<legend>Personal Info</legend>
+  <p>
+	  <label>First and Last Name
+		  <input type="text" name="first and last name" size="30"/>
+    </label>
+	</p>
+  <p>
+	  <label>Address
+		  <input type="text" name="address" size="30"/>
+	  </label>
+	  <label>City
+		  <input type="text" name="city" size="15"/>
+	  </label>
+	  <label>State
+		  <select name="state">
+			<option value="al" selected="selected">AL</option>
+			<option value="ak">AK</option>
+			<option value="az">AZ</option>
+			<option value="ar">AR</option>
+			<option value="ca">CA</option>
+			<option value="co">CO</option>
+			<option value="ct">CT</option>
+			<option value="de">DE</option>
+			<option value="fl">fl</option>
+			<option value="ga">GA</option>
+			<option value="HI">HI</option>
+			<option value="id">ID</option>
+			<option value="il">IL</option>
+			<option value="in">IN</option>
+			<option value="IA">IA</option>
+			<option value="ks">KS</option>
+			<option value="ky">KY</option>
+			<option value="la">LA</option>
+			<option value="me">ME</option>
+			<option value="md">MD</option>
+			<option value="ma">MA</option>
+			<option value="mi">MI</option>
+			<option value="mn">MN</option>
+			<option value="ms">MS</option>
+			<option value="mo">MO</option>
+			<option value="mt">MT</option>
+			<option value="NE">NE</option>
+			<option value="nv">NV</option>
+			<option value="nh">NH</option>
+			<option value="nj">NJ</option>
+			<option value="nm">NM</option>
+			<option value="ny">NY</option>
+			<option value="NC">NC</option>
+			<option value="nd">ND</option>
+			<option value="oh">OH</option>
+			<option value="ok">OK</option>
+			<option value="OR">OR</option>
+			<option value="pa">PA</option>
+			<option value="ri">RI</option>
+			<option value="sc">SC</option>
+			<option value="sd">SD</option>
+			<option value="tn">TN</option>
+			<option value="tx">TX</option>
+			<option value="ut">UT</option>
+			<option value="vt">VT</option>
+			<option value="va">VA</option>
+			<option value="wa">WA</option>
+			<option value="wv">WV</option>
+			<option value="wi">WI</option>
+			<option value="wy">WY</option>
+		  </select></label>
+	  <label>Zip Code
+		  <input type="text" name="zip" size="5" maxlength="5"/></label>
+    </p>
+  <p>
+	  <label>Phone Number
+		  <input type="text" name="phone number" size="11" maxlength="16"/></label>
+	  <label>Email
+		  <input type="text" name="email" size="30"/></label>
+	</p>
+		
+	<p>
+		<label>Gender: 
+		<input id="female" type="radio" name="gender" value="f"/></label>
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" value="m"/>
+<label for="male">Male</label>
+<input id="decline to state" type="radio" name="gender" value="d"/>
+<label for="decline to state">Decline to State</label>
+	</p>
+	<p>Select Your Five Favorite Colors:
+		<input type="checkbox" name="color" value="purple"/> Purple
+		<input type="checkbox" name="color" value="blue"/> Blue
+		<input type="checkbox" name="color" value="green"/> Green
+		<input type="checkbox" name="color" value="black"/> Black
+		<input type="checkbox" name="color" value="yellow"/> Yellow
+		<input type="checkbox" name="color" value="Orange"/> Orange
+		<input type="checkbox" name="color" value="Brown"/> Brown
+		<input type="checkbox" name="color" value="white"/> White
+		<input type="checkbox" name="color" value="pink"/> Pink
+		<input type="checkbox" name="color" value="red"/> Red
+	</p></fieldset>
+	<fieldset>
+	<legend>Credit Card Information:</legend>
+	<p>
+		<label>Name as it appears on the card:
+		<input type="text" name="card name" size="25"/></label>
+		<label>Card Number:
+		<input type="text" name="credit card number" size="25"/></label>
+		<label>CVV Code:
+		<input type="text" name="credit card number" size="8"/></label>
+		<label>Exp. Date:
+		  <select name="month">
+			<option value="1" selected="selected">01</option>
+			<option value="2">02</option>
+			<option value="3">03</option>
+			<option value="4">04</option>
+			<option value="5">05</option>
+			<option value="6">06</option>
+			<option value="7">07</option>
+			<option value="8">08</option>
+			<option value="9">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		  </select></label>
+		  <select name="year">
+		  <option value="2017" selected="selected">2017</option>
+			<option value="2018">2018</option>
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
+			<option value="2021">2021</option>
+			<option value="2022">2022</option>
+			<option value="2023">2023</option>
+			<option value="2024">2024</option>
+			<option value="2025">2025</option>	
+		</select>	
+	</p>
+		</fieldset>
+		<input type="submit" value="Submit" />
+</form>
+</div>
+<!--End form-->
 </body>
 </html>
