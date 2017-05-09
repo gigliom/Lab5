@@ -2,7 +2,7 @@
 /* CSS Document */
 /* apply font to all text */
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -12,19 +12,22 @@ nav {
 }
 ul {
 	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
 }
 
 li{
 	float:left;
 	display:block;
-	width: 150px;
+	padding: 0px 30px;
 	background-color: skyblue;
 	line-height: 50px;
+	font-family: 'Roboto', sans-serif;
 }
 
 a:link {
 	text-decoration: none;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
 a:visited {
@@ -36,11 +39,12 @@ a:hover {
 }
 
 h1{
-	font-family: Helvetica, Arial," sans-serif"
+	font-family: 'Roboto', sans-serif;
+	clear: both;
 }
 
 h2{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	margin-top: -20px;
 }
@@ -79,3 +83,19 @@ span{
 	font-weight: 200;
 	font-style: italic;
 }
+/*fieldset begin*/
+legend {
+	font-size: 1.25em;
+	background-color:#D2EDFD;
+	border: 1px solid black;
+}
+
+form{
+	clear: both;
+}
+
+fieldset {
+	background-color: #EBEBD0;
+	margin: 40px 10px 20px 0px;
+}
+/*fieldset end*/ 
