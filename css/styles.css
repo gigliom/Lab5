@@ -12,7 +12,7 @@ nav {
 }
 ul {
 	list-style-type: none;
-	font-family: 'Roboto', sans-serif;
+	
 }
 
 li{
@@ -21,13 +21,11 @@ li{
 	padding: 0px 30px;
 	background-color: skyblue;
 	line-height: 50px;
-	font-family: 'Roboto', sans-serif;
 }
 
 a:link {
 	text-decoration: none;
 	color: white;
-	font-family: 'Roboto', sans-serif;
 }
 
 a:visited {
@@ -39,12 +37,11 @@ a:hover {
 }
 
 h1{
-	font-family: 'Roboto', sans-serif;
 	clear: both;
 }
 
 h2{
-	font-family: 'Roboto', sans-serif;
+	
 	font-weight: 200;
 	margin-top: -20px;
 }
